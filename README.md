@@ -1,1 +1,1 @@
-# pruefung_m324_Bryan_Amrein
+# Prüfung M324

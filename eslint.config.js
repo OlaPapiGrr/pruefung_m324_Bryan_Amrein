@@ -1,14 +1,20 @@
-import globals from "globals";
-
+import globals from 'globals';
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
-  {languageOptions: { globals: globals.browser }},
+  {
+    languageOptions:
+      {
+        globals:
+          globals.browser,
+      },
+  },
 
   {
-    rules:{
-      'eqeqeq': 'error',        // Erzwingt die Verwendung von === statt ==
-    }
-  }
-
+    rules:
+      {
+        eqeqeq:
+          'error', // Erzwingt die Verwendung von === statt ==
+      },
+  },
 ];
